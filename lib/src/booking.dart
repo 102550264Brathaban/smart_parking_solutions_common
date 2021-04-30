@@ -6,14 +6,14 @@ import 'package:meta/meta.dart';
 class Booking {
   User owner;
   String bayID; ///The unique ID of the parking bay
-  DateTime bookingCreatedDate;
-  DateTime bookingStartDate;
-  DateTime bookingEndDate;
+  DateTime createdDate;
+  DateTime startDate;
+  DateTime endDate;
 
   Booking(
       {@required this.owner,
       @required this.bayID,
-      @required this.bookingCreatedDate,
-      @required this.bookingStartDate,
-      @required this.bookingEndDate});
+      @required this.createdDate,
+      @required this.startDate,
+      @required this.endDate});
 }
