@@ -3,6 +3,7 @@
 /// More dartdocs go here.
 library smart_parking_solutions_common;
 
+//library
 export 'src/booking.dart';
 export 'src/user.dart';
 export 'src/access_token.dart';
